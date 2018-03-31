@@ -4,7 +4,7 @@
   "description": "Traductor de idioma platzi",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src/platzom.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "author": "Matias Niz <matiasniz@icloud.com> (https://www.linkedin.com/in/matias-niz-b5185079/)",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
